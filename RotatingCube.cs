@@ -18,7 +18,7 @@ public class RotatingCube : MonoBehaviour
 
     private ARTrackedImageManager m_TrackedImageManager;
     //dictionary with the closes
-    private Dictionary<string,GameObject> arObjects = new Dictionary<string, GameObject>(); // dictionary with the key = name of the object and value the GameObject
+    private Dictionary<string,GameObject> arObjects = new Dictionary<string, GameObject>(); // dictionary with the key = name of the object and value of the GameObject
 
     void Awake()
         {
